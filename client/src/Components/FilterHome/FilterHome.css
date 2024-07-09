@@ -1,0 +1,71 @@
+.Parent {
+    .alice-carousel__wrapper{
+        width: 90vw;
+        margin: auto;
+    .custom-carousel .alice-carousel__stage {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .custom-carousel .alice-carousel__stage-item {
+        transition: transform 0.3s;
+    }
+    
+    .custom-carousel .carousel-item {
+        margin: 0 10px;
+    }
+    
+    .custom-carousel .alice-carousel__stage-item:nth-child(4) {
+        transform: scale(0.5);
+    }
+}
+    button {
+        background: black; /* Background color */
+        color: white; /* Text color */
+        padding: 6px 18px; /* Padding */
+        font-size: 15px; /* Font size */
+        border: none; /* Remove border */
+        border-radius: 25px; /* Border radius */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Smooth transition with cubic-bezier easing */
+        cursor: pointer; /* Cursor style */
+        outline: none; /* Remove outline */
+        text-transform: uppercase;
+    }
+
+    button:hover {
+        transform: translateY(-3px); /* Lift effect on hover */
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    }
+
+    .bd {
+        display: flex;
+        gap: 20px; /* Gap between buttons */
+        margin-bottom: 30px; /* Margin bottom */
+    }
+
+    .selected {
+        background: white; /* Background color for selected button */
+        border: 2px solid black; /* Border for selected button */
+        color: black; /* Text color for selected button */
+        box-shadow: none; /* Remove shadow for selected button */
+    }
+
+    .cd {
+        button {
+            background: white; /* Background color for 'View All' button */
+            border: 2px solid black; /* Border for 'View All' button */
+            color: black; /* Text color for 'View All' button */
+            box-shadow: none; /* Remove shadow for 'View All' button */
+            padding: 6px 30px; /* Padding */
+            font-size: 18px; /* Font size */
+        }
+
+        button:hover {
+            background: black; /* Background color on hover */
+            color: white; /* Text color on hover */
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+            transform: translateY(-3px); /* Lift effect on hover */
+        }
+    }
+}

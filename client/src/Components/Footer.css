@@ -1,0 +1,41 @@
+.section-footer{
+    .Parent-footer{
+        box-shadow: 0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset;
+        h2{
+            font-size: 28px;
+        }
+        ul{
+            padding: 10px 0;
+        }
+        ul li{
+            font-size: 20px;
+            padding:10px 2px;
+        }
+    }
+}
+/* Mobile */
+@media only screen and (min-width:320px) and (max-width:768px){
+    .section-footer{
+    .Parent-footer{
+        h2{
+            font-size: 24px;
+            
+        }
+        ul li{
+            font-size: 16px;
+            padding:5px 2px;
+        }
+    }
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){}
+/* Small Screen */
+@media only screen and (min-width:768px) and (max-width:1024px){}
+/* Medium Screen */
+@media only screen and (min-width:1024px) and (max-width:1280px){}
+/* Large Screen */
+@media only screen and (min-width:1280px){}
+.section-footer{
+    z-index: 1000;
+}

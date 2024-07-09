@@ -1,0 +1,57 @@
+body{
+    text-transform: uppercase;
+    img{
+        border-radius: 0;
+    }
+    .related-image{
+        aspect-ratio:3/4;
+        object-fit: cover;
+    }
+    .related-products{
+        .alice-carousel__wrapper{
+            width: 80vw;
+            margin: auto;
+        .alice-carousel__stage{  
+            width: 80vw;  
+        .alice-carousel__stage-item{
+            width: 80vw;
+            }
+        }
+    }
+}
+}
+
+.tax{
+    text-transform:capitalize;
+}
+
+.size{
+   -webkit-text-stroke-width: 1px;
+   color: white;
+   -webkit-text-stroke-color: black;
+   border: 1px solid black;
+}
+.color-span{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.alice-carousel__wrapper{
+    width: 100vw;
+.alice-carousel__stage-item{
+    width: 100vw;
+    }
+}
+.alice-carousel__dots{
+    margin:5px;
+    .alice-carousel__dots-item:not(.__custom).__active {
+        background-color:black;
+    }
+}
+.size-p{
+    padding: 2px 10px;
+}
+.selected-size{
+    color: white;
+    -webkit-text-stroke-color: red;
+    border: 1px solid red;
+}

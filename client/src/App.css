@@ -1,0 +1,9 @@
+.Black-Button{
+  background-color: black;
+  color: white;
+  padding:6% 7%;
+  height: fit-content;
+  font-size: 32px;
+  border-radius: 4px; 
+  width: 18rem;
+}

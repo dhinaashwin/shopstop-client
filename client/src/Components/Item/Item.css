@@ -1,0 +1,10 @@
+.item-section{
+    /* p,li{
+        font-size:15px;
+    } */
+    img{
+        border-radius: 5px;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,43 @@
+.trending{
+    .parent:hover{
+        transform: scale(1.04);
+        transition: all 0.4s ease; 
+    }
+    .parent img:hover{
+        filter: brightness(90%);
+        transition: all 0.4s ease; 
+    }
+ .parent:first-child{
+    h2{
+        color: rgb(9, 3, 70);
+        bottom:20px;
+        left: 19px;
+    }
+ }
+ .parent:nth-child(2){
+    h2{
+        color: rgb(255, 255, 255);
+        bottom:20px;
+        left: 19px;
+    }
+ }
+ .parent:nth-child(3){
+    h2{
+        color: rgb(241, 108, 0);
+        bottom:25px;
+        left: 19px;
+    }
+ }
+ .parent:nth-child(4){
+    h2{
+        color: rgb(48, 232, 156);
+        bottom:25px;
+        left: 19px;
+    }
+ }
+    img{
+        aspect-ratio: 3/4;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}

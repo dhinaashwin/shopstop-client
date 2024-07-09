@@ -1,0 +1,16 @@
+// vite.config.js
+import { defineConfig } from "file:///C:/Users/Dell/Desktop/fullStack-ShopStop-2/client/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/Dell/Desktop/fullStack-ShopStop-2/client/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import tailwindcss from "file:///C:/Users/Dell/Desktop/fullStack-ShopStop-2/client/node_modules/tailwindcss/lib/index.js";
+var vite_config_default = defineConfig({
+  plugins: [react()],
+  css: {
+    postcss: {
+      plugins: [tailwindcss()]
+    }
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxEZWxsXFxcXERlc2t0b3BcXFxcZnVsbFN0YWNrLVNob3BTdG9wLTJcXFxcY2xpZW50XCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxEZWxsXFxcXERlc2t0b3BcXFxcZnVsbFN0YWNrLVNob3BTdG9wLTJcXFxcY2xpZW50XFxcXHZpdGUuY29uZmlnLmpzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9DOi9Vc2Vycy9EZWxsL0Rlc2t0b3AvZnVsbFN0YWNrLVNob3BTdG9wLTIvY2xpZW50L3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSBcInZpdGVcIjtcbmltcG9ydCByZWFjdCBmcm9tIFwiQHZpdGVqcy9wbHVnaW4tcmVhY3RcIjtcbmltcG9ydCB0YWlsd2luZGNzcyBmcm9tIFwidGFpbHdpbmRjc3NcIjtcbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG5wbHVnaW5zOiBbcmVhY3QoKV0sXG4gIGNzczoge1xuICAgcG9zdGNzczoge1xuICAgIHBsdWdpbnM6IFt0YWlsd2luZGNzcygpXSxcbiAgIH0sXG4gIH0sXG59KTsiXSwKICAibWFwcGluZ3MiOiAiO0FBQWlWLFNBQVMsb0JBQW9CO0FBQzlXLE9BQU8sV0FBVztBQUNsQixPQUFPLGlCQUFpQjtBQUN4QixJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUM1QixTQUFTLENBQUMsTUFBTSxDQUFDO0FBQUEsRUFDZixLQUFLO0FBQUEsSUFDSixTQUFTO0FBQUEsTUFDUixTQUFTLENBQUMsWUFBWSxDQUFDO0FBQUEsSUFDeEI7QUFBQSxFQUNEO0FBQ0YsQ0FBQzsiLAogICJuYW1lcyI6IFtdCn0K

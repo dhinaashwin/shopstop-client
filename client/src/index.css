@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'TC-Medium',sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-style: normal;
+  word-spacing: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default; 
+  font-style: normal;
+  overflow-x: hidden;
+  overflow-y:auto;
+}
+p{
+  letter-spacing: 1.5px;
+}
+
+/* @font-face {
+  font-family: 'HM Sans Regular';
+  src: url(./fonts/HM\ Sans\ Latin\ Regular.ttf);
+  
+}
+@font-face {
+  font-family: 'HM Sans Cy Regular';
+  src: url(./fonts/HM\ Sans\ Cyrillic\ Regular.ttf);
+  
+}
+@font-face {
+  font-family: 'HM Sans SemiBold';
+  src: url(./fonts/HM\ Sans\ Latin\ SemiBold.ttf);
+}
+@font-face {
+  font-family: 'HM Sans Bold';
+  src: url('./fonts/HM\ Sans\ Latin\ Bold.ttf');
+} */
+@font-face {
+  font-family: 'TC-light';
+  src: url('./fonts/TwentiethCenturyforKenmoreLight.ttf');
+}
+@font-face {
+  font-family: 'TC-Medium';
+  src: url('./fonts/TwentiethCenturyforKenmoreMedium.ttf');
+}
+@font-face {
+  font-family: 'TC-Bold';
+  src: url('./fonts/TwentiethCenturyforKenmoreBold.ttf');
+}
+@font-face {
+  font-family: 'TC-SemiBold';
+  src: url('./fonts/TwentiethCenturyforKenmoreSemibold.ttf');
+}
+.font-sb{
+  font-family: 'TC-SemiBold';
+}
+.font-b{
+  font-family: 'TC-Bold';
+}
+.svg-ds {
+  filter: drop-shadow(-2px 4px 2px rgb(0 0 0 / 0.4));
+  transition: 0.5s;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ds{
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); 
+}
+.s-size{
+    width: 40px !important;
+    height: 40px !important;
+}
+/* Mobile */
+@media only screen and (min-width:320px) and (max-width:480px){
+ p {
+  font-size:12px;
+ }
+}
+/* Tablet */
+@media only screen and (min-width:480px) and (max-width:768px){
+ 
+}
+/* Small Screen */
+@media only screen and (min-width:768px) and (max-width:1024px){
+ 
+}
+/* Medium Screen */
+
+/* Large Screen */
+@media only screen and (min-width:1024px){
+  
+}
+@media only screen and (min-width:0px) and (max-width:319px){
+  body{
+    display: none;
+  }
+}
